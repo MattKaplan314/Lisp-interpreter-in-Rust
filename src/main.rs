@@ -1,6 +1,7 @@
 use std::collections::HashMap;
 use std::fmt;
 use std::num::ParseFloatError;
+use std::io::Read;
 
 #[derive(Clone)]
 enum Token {
